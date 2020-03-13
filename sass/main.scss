@@ -1,0 +1,27 @@
+@import "./abstract/mixins";
+@import "./abstract/variables";
+
+@import "./base/animations";
+@import "./base/typography";
+@import "./base/utilities";
+
+@import "./component/button";
+
+@import "./layout/header";
+@import "./layout/grid";
+
+@import "./pages/home";
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  box-sizing: border-box;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "notis-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sawankumar-tak-au7/notis-website.git"
+  },
+  "author": "sawankumar tak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sawankumar-tak-au7/notis-website/issues"
+  },
+  "homepage": "https://github.com/sawankumar-tak-au7/notis-website#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "node-sass": "^4.13.1"
+  },
+  "dependencies": {}
+}
